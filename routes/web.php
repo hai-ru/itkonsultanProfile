@@ -17,6 +17,37 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/pages/{name}', function ($name) {
+    switch ($name) {
+        case 'about':
+            return view('pages.about');
+            break;
+        case 'services':
+            return view('pages.services');
+            break;
+        
+        default:
+            abort(404);
+            break;
+    }
+})->name("page");
+
+Route::get('/services/{name}', function ($name) {
+    // switch ($name) {
+    //     case 'cloud-computing':
+    //         return view('pages.services-detail',$name);
+    //         break;
+    //     case 'services':
+    //         return view('pages.services');
+    //         break;
+        
+    //     default:
+    //         abort(404);
+    //         break;
+    // }
+    return view('pages.services-detail',['name'=>$name]);
+})->name("service");
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
