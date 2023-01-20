@@ -16,6 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('blog', function () {
+    return view('pages.blog');
+})->name('blog');
+Route::get('careers', function () {
+    return view('pages.careers');
+})->name('careers');
+Route::get('contact', function () {
+    return view('pages.contact');
+})->name('contact');
 
 Route::get('/pages/{name}', function ($name) {
     switch ($name) {

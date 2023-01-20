@@ -50,17 +50,17 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a class="nav-link" href="demo-it-services-blog.html">
+                                            <a class="nav-link {{ Request::is("blog") ? "active" : "" }}" href="{{ route('blog') }}">
                                                 Blog
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="nav-link" href="demo-it-services-careers.html">
+                                            <a class="nav-link {{ Request::is("careers") ? "active" : "" }}" href="{{ route('careers') }}">
                                                 Careers
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="nav-link" href="demo-it-services-contact.html">
+                                            <a class="nav-link {{ Request::is("contact") ? "active" : "" }}" href="{{ route('contact') }}">
                                                 Contact
                                             </a>
                                         </li>
