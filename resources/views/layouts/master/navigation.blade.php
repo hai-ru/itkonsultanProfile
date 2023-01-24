@@ -19,49 +19,52 @@
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li>
                                             <a class="nav-link {{ Request::is("/") ? "active" : "" }}" href="/">
-                                                Home
+                                                {{__('navigation.home')}}
                                             </a>
                                         </li>
                                         <li>
                                             <a class="nav-link {{ Request::is("pages/about") ? "active" : "" }}" href="{{ route('page','about') }}">
-                                                About Us
+                                                {{__('navigation.about')}}
                                             </a>
                                         </li>
                                         <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle {{ Request::is("pages/services") ? "active" : "" }}" href="{{ route('page','services') }}">
-                                                IT Services
+                                                {{__('navigation.services')}}
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li>
-                                                    <a class="nav-link {{ Request::is("pages/services") ? "active" : "" }}" href="{{ route('page','services') }}">Overview</a>
+                                                    <a class="nav-link {{ Request::is("pages/services") ? "active" : "" }}" href="{{ route('page','services') }}">{{__('navigation.overview')}}</a>
                                                 </li>
                                                 <li>
-                                                    <a class="nav-link {{ Request::is("services/*") ? "active" : "" }}" href="{{ route('service','Cloud Services') }}">Cloud Services</a>
+                                                    <a class="nav-link {{ Request::is("services/*") ? "active" : "" }}" href="{{ route('service','Software Development') }}">{{__('navigation.softdev')}}</a>
                                                 </li>
                                                 <li>
-                                                    <a class="nav-link {{ Request::is("services/*") ? "active" : "" }}" href="{{ route('service','Tech Support') }}">Tech Support</a>
+                                                    <a class="nav-link {{ Request::is("services/*") ? "active" : "" }}" href="{{ route('service','Internet of Things') }}">{{__('navigation.iot')}}</a>
                                                 </li>
                                                 <li>
-                                                    <a class="nav-link {{ Request::is("services/*") ? "active" : "" }}" href="{{ route('service','Data Security') }}">Data Security</a>
+                                                    <a class="nav-link {{ Request::is("services/*") ? "active" : "" }}" href="{{ route('service','Cloud Services') }}">{{__('navigation.cloud')}}</a>
                                                 </li>
                                                 <li>
-                                                    <a class="nav-link {{ Request::is("services/*") ? "active" : "" }}" href="{{ route('service','Software Development') }}">Software Development</a>
+                                                    <a class="nav-link {{ Request::is("services/*") ? "active" : "" }}" href="{{ route('service','Tech Support') }}">{{__('navigation.support')}}</a>
+                                                </li>
+                                                <li>
+                                                    <a class="nav-link {{ Request::is("services/*") ? "active" : "" }}" href="{{ route('service','Data Security') }}">{{__('navigation.security')}}</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
                                             <a class="nav-link {{ Request::is("blog") ? "active" : "" }}" href="{{ route('blog') }}">
-                                                Blog
+                                                {{__('navigation.blog')}}
                                             </a>
                                         </li>
                                         <li>
                                             <a class="nav-link {{ Request::is("careers") ? "active" : "" }}" href="{{ route('careers') }}">
-                                                Careers
+                                                {{__('navigation.careers')}}
                                             </a>
                                         </li>
                                         <li>
                                             <a class="nav-link {{ Request::is("contact") ? "active" : "" }}" href="{{ route('contact') }}">
-                                                Contact
+                                                {{__('navigation.contact')}}
                                             </a>
                                         </li>
                                     </ul>
@@ -74,7 +77,7 @@
                         <div class="d-none d-sm-inline-flex order-1 order-lg-2 ms-2">
                             <ul class="header-extra-info d-flex">
                                 <li class="d-flex flex-column">
-                                    <span class="d-block font-weight-semibold text-color-dark text-2 line-height-3">SALES</span>
+                                    <span class="d-block font-weight-semibold text-color-dark text-2 line-height-3">{{__('navigation.no_label')}}</span>
                                     <a href="tel:+6281254197359" class="font-weight-bold text-color-primary text-5">+6281254197359</a>
                                 </li>
                             </ul>
