@@ -18,7 +18,7 @@
         </div>
     </section>
 
-    <section class="section custom-section-full-width bg-color-transparent border-0 mt-0 mb-1" style="background-image: url(img/demos/it-services/backgrounds/dots-background-2.png); background-repeat: no-repeat; background-position: bottom right;">
+    <section class="section custom-section-full-width bg-color-transparent border-0 mt-0 mb-1" style="background-image: url(/img/demos/it-services/backgrounds/dots-background-2.png); background-repeat: no-repeat; background-position: bottom right;">
         <div class="container container-xl-custom pt-3 mt-4">
             <div class="row justify-content-center">
                 <div class="col-md-7 mb-5 mb-md-0">
@@ -53,8 +53,8 @@
             </div>
             <div class="row align-items-xl-center pb-md-5 my-md-5 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250">
                 <div class="col-lg-6 col-xl-4 position-relative px-xl-4 mx-auto mb-5 mb-lg-0 mt-lg-5">
-                    <img src="img/demos/it-services/careers/puzzle-1.png" class="img-fluid custom-position-center-x-y z-index-0" alt="Puzzle Background" />
-                    <img src="img/demos/it-services/careers/generic-1.jpg" class="img-fluid position-relative z-index-1" alt="Our Emplyer Culture" />
+                    <img src="/img/demos/it-services/careers/puzzle-1.png" class="img-fluid custom-position-center-x-y z-index-0" alt="Puzzle Background" />
+                    <img src="/img/demos/it-services/careers/generic-1.jpg" class="img-fluid position-relative z-index-1" alt="Our Emplyer Culture" />
                 </div>
                 <div class="col-lg-6">
                     <p class="custom-text-size-1 pb-2 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. Vestibulum auctor felis eget orci semper vestibulum. Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc. In nibh ipsum, blandit id faucibus ac, finibus vitae dui.</p>
@@ -84,7 +84,7 @@
                         <div>
                             <div class="card border-0 bg-color-transparent">
                                 <div class="card-body text-center p-4 my-3">
-                                    <img src="img/demos/it-services/icons/backup-data-server.svg" class="img-fluid" width="100" height="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary pb-2 mb-4'}" />
+                                    <img src="/img/demos/it-services/icons/backup-data-server.svg" class="img-fluid" width="100" height="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary pb-2 mb-4'}" />
                                     <h4 class="text-color-primary font-weight-bold text-6 mb-3">Cloud Services</h4>
                                     <p class="custom-text-size-1 px-lg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci.</p>
                                     <a href="demo-it-services-services-detail.html" class="text-color-dark font-weight-bold custom-text-size-1">READ MORE +</a>
@@ -94,7 +94,7 @@
                         <div>
                             <div class="card border-0 bg-color-transparent mt-lg-5">
                                 <div class="card-body text-center p-4 my-3">
-                                    <img src="img/demos/it-services/icons/remove-monitor-access.svg" class="img-fluid" width="100" height="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-dark pb-2 mb-4'}" />
+                                    <img src="/img/demos/it-services/icons/remove-monitor-access.svg" class="img-fluid" width="100" height="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-dark pb-2 mb-4'}" />
                                     <h4 class="text-color-dark font-weight-bold text-6 mb-3">Tech Support</h4>
                                     <p class="custom-text-size-1 px-lg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci.</p>
                                     <a href="demo-it-services-services-detail.html" class="text-color-primary font-weight-bold custom-text-size-1">READ MORE +</a>
@@ -104,7 +104,7 @@
                         <div>
                             <div class="card border-0 bg-color-transparent">
                                 <div class="card-body text-center p-4 my-3">
-                                    <img src="img/demos/it-services/icons/password-lock-secure.svg" class="img-fluid" width="100" height="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary pb-2 mb-4'}" />
+                                    <img src="/img/demos/it-services/icons/password-lock-secure.svg" class="img-fluid" width="100" height="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary pb-2 mb-4'}" />
                                     <h4 class="text-color-primary font-weight-bold text-6 mb-3">Data Security</h4>
                                     <p class="custom-text-size-1 px-lg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci.</p>
                                     <a href="demo-it-services-services-detail.html" class="text-color-dark font-weight-bold custom-text-size-1">READ MORE +</a>
@@ -114,7 +114,7 @@
                         <div>
                             <div class="card border-0 bg-color-transparent mt-lg-5">
                                 <div class="card-body text-center p-4 my-3">
-                                    <img src="img/demos/it-services/icons/floppy-disk-memory.svg" class="img-fluid" width="100" height="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-dark pb-2 mb-4'}" />
+                                    <img src="/img/demos/it-services/icons/floppy-disk-memory.svg" class="img-fluid" width="100" height="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-dark pb-2 mb-4'}" />
                                     <h4 class="text-color-dark font-weight-bold text-6 mb-3">Software Dev</h4>
                                     <p class="custom-text-size-1 px-lg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci.</p>
                                     <a href="demo-it-services-services-detail.html" class="text-color-primary font-weight-bold custom-text-size-1">READ MORE +</a>
@@ -124,7 +124,7 @@
                         <div>
                             <div class="card border-0 bg-color-transparent">
                                 <div class="card-body text-center p-4 my-3">
-                                    <img src="img/demos/it-services/icons/network-database.svg" class="img-fluid" width="100" height="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary pb-2 mb-4'}" />
+                                    <img src="/img/demos/it-services/icons/network-database.svg" class="img-fluid" width="100" height="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary pb-2 mb-4'}" />
                                     <h4 class="text-color-primary font-weight-bold text-6 mb-3">Server Consulting</h4>
                                     <p class="custom-text-size-1 px-lg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci.</p>
                                     <a href="demo-it-services-services-detail.html" class="text-color-dark font-weight-bold custom-text-size-1">READ MORE +</a>
@@ -134,7 +134,7 @@
                         <div>
                             <div class="card border-0 bg-color-transparent mt-lg-5">
                                 <div class="card-body text-center p-4 my-3">
-                                    <img src="img/demos/it-services/icons/remove-monitor-access.svg" class="img-fluid" width="100" height="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-dark pb-2 mb-4'}" />
+                                    <img src="/img/demos/it-services/icons/remove-monitor-access.svg" class="img-fluid" width="100" height="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-dark pb-2 mb-4'}" />
                                     <h4 class="text-color-dark font-weight-bold text-6 mb-3">Tech Support</h4>
                                     <p class="custom-text-size-1 px-lg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci.</p>
                                     <a href="demo-it-services-services-detail.html" class="text-color-primary font-weight-bold custom-text-size-1">READ MORE +</a>
@@ -147,21 +147,6 @@
         </div>
     </section>
 
-    <section class="section section-height-3 bg-color-dark border-0 m-0">
-        <div class="container container-xl-custom">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-8 col-xl-6 mb-5 mb-lg-0">
-                    <span class="d-block custom-text-color-light-2 custom-heading-bar custom-heading-bar-with-padding font-weight-light text-5 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">Let’s Get in Touch</span>
-                    <h2 class="text-color-light font-weight-extra-bold text-10 negative-ls-1 pe-3 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">LET'S TALK ABOUT YOUR BUSINESS IT SERVICES NEEDS</h2>
-                    <p class="custom-font-secondary text-4 custom-text-color-light-3 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <div class="col-lg-4 col-xl-3">
-                    <div class="overflow-hidden">
-                        <a href="demo-it-services-contact.html" class="btn btn-secondary btn-outline text-color-light font-weight-semibold border-width-4 custom-link-effect-1 text-1 text-xl-3 d-inline-flex align-items-center px-4 py-3 appear-animation" data-appear-animation="maskRight" data-appear-animation-delay="900">GET STARTED NOW <i class="custom-arrow-icon ms-2"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+   @include('components.cta')
 
 @endsection
