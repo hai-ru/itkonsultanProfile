@@ -17,7 +17,7 @@
     </div>
 </section>
 
-<section class="section section-height-3 bg-color-transparent border-0 pb-0 m-0" style="background-image: url(img/demos/it-services/backgrounds/dots-background-3.png); background-repeat: no-repeat; background-position: 112% 100%;">
+<section class="section section-height-3 bg-color-transparent border-0 pb-0 m-0" style="background-image: url('/img/demos/it-services/backgrounds/dots-background-3.png'); background-repeat: no-repeat; background-position: 112% 100%;">
     <div class="container container-xl-custom mt-4">
         <div class="row justify-content-center justify-content-lg-start">
             <div class="col-lg-7 col-xl-5 mb-5 mb-lg-0">
