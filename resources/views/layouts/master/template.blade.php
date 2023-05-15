@@ -8,9 +8,12 @@
 
 		<title>IT Konsultan Software and Solutions | Technology and Businees Applications</title>	
 
-		<meta name="keywords" content="WebSite Template" />
-		<meta name="description" content="Porto - Multipurpose Website Template">
+		<meta name="keywords" content="It konsultan, IT Consultant, Technology, Innovation, Applications, Mobile Developer, Software Engineer" />
+		<meta name="title" content="@yield('seo_title','IT Konsultan Software and Solutions | Technology and Businees Applications')">
+		<meta name="description" content="@yield('seo_description','Pengadaan barang dan jasa instalasi jaringan internet, CCTV serta membangun Infrastruktur IT terbaik dan berkualitas untuk bisnis anda')">
 		<meta name="author" content="Muhammad Khairudin">
+		<meta property="og:url" content="{{env('APP_URL')}}" />
+		<meta property="og:image" content="@yield('og_image',env('APP_URL').'/images/bg-full.jpg')" />
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />

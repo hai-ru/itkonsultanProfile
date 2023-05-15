@@ -38,6 +38,14 @@
                     $("#description").html(result.description)
                     $("#news_content").show();
                     $("#loading").hide();
+
+                    $("meta[name=title]").attr("content", result.title);
+                    if(result.seo_description !== "" && result.seo_description !== null){
+                        $("meta[name=description]").attr("content", result.seo_description);
+                    }
+                    if(result.default_image !== "" && result.default_image !== null){
+                        $("meta[name=og:image]").attr("content", result.default_image);
+                    }
                 },
                 error:function(e){console.log(e)}
             })
