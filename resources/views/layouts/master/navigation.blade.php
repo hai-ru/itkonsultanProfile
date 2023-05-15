@@ -28,14 +28,25 @@
                                             </a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle {{ Request::is("pages/services") ? "active" : "" }}" href="{{ route('page','services') }}">
-                                                {{__('navigation.services')}}
+                                            <!-- <a class="dropdown-item dropdown-toggle {{ Request::is("pages/services") ? "active" : "" }}" href="{{ route('page','services') }}"> -->
+                                            <a class="dropdown-item dropdown-toggle {{ Request::is("pages/services") || Request::is("pages/product")  ? "active" : "" }}" href="#">
+                                                <!-- {{__('navigation.services')}} -->
+                                                Produk & Layanan
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li>
-                                                    <a class="nav-link {{ Request::is("pages/services") ? "active" : "" }}" href="{{ route('page','services') }}">{{__('navigation.overview')}}</a>
+                                                    <a class="nav-link {{ Request::is("pages/services") ? "active" : "" }}" href="{{ route('page','services') }}">
+                                                        <!-- {{__('navigation.overview')}} -->
+                                                        Produk
+                                                    </a>
                                                 </li>
                                                 <li>
+                                                    <a class="nav-link {{ Request::is("services/*") ? "active" : "" }}" href="{{ route('service','Layanan Kami') }}">
+                                                        <!-- {{__('navigation.overview')}} -->
+                                                        Layanan
+                                                    </a>
+                                                </li>
+                                                <!-- <li>
                                                     <a class="nav-link {{ Request::is("services/*") ? "active" : "" }}" href="{{ route('service','Software Development') }}">{{__('navigation.softdev')}}</a>
                                                 </li>
                                                 <li>
@@ -49,7 +60,7 @@
                                                 </li>
                                                 <li>
                                                     <a class="nav-link {{ Request::is("services/*") ? "active" : "" }}" href="{{ route('service','Data Security') }}">{{__('navigation.security')}}</a>
-                                                </li>
+                                                </li> -->
                                             </ul>
                                         </li>
                                         <li>

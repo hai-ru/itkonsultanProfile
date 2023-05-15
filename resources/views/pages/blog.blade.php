@@ -21,7 +21,7 @@
     <section class="section bg-color-transparent border-0 py-4 m-0">
         <div class="container container-xl-custom my-5">
             <div class="row">
-                <div class="col-lg-9 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
+                <div class="col-lg-12 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
 
                     <div class="masonry-loader masonry-loader-showing">
                         <div class="row row-gutter-sm justify-content-center masonry mb-5" data-plugin-masonry data-plugin-options="{'itemSelector': '.isotope-item'}">
@@ -113,61 +113,10 @@
                     </ul>
 
                 </div>
-                <div class="col-lg-3 pt-4 pt-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
-                    <aside class="sidebar">
-                        <div class="px-3 mt-4">
-                            <h3 class="text-color-quaternary text-capitalize font-weight-bold text-5 m-0">Categories</h3>
-                            <ul class="nav nav-list flex-column mt-2 mb-0 p-relative right-9">
-                                <li class="nav-item"><a class="nav-link bg-transparent border-0" href="#">Design (2)</a></li>
-                                <li class="nav-item">
-                                    <a class="nav-link bg-transparent border-0 active" href="#">Photos (4)</a>
-                                    <ul>
-                                        <li class="nav-item"><a class="nav-link bg-transparent border-0" href="#">Animals</a></li>
-                                        <li class="nav-item"><a class="nav-link bg-transparent border-0 active" href="#">Business</a></li>
-                                        <li class="nav-item"><a class="nav-link bg-transparent border-0" href="#">Sports</a></li>
-                                        <li class="nav-item"><a class="nav-link bg-transparent border-0" href="#">People</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item"><a class="nav-link bg-transparent border-0" href="#">Videos (3)</a></li>
-                                <li class="nav-item"><a class="nav-link bg-transparent border-0" href="#">Lifestyle (2)</a></li>
-                                <li class="nav-item"><a class="nav-link bg-transparent border-0" href="#">Technology (1)</a></li>
-                            </ul>
-                            <div class="py-1 clearfix">
-                                <hr class="my-2">
-                            </div>
-                            <div class="px-3 mt-4">
-                                <h3 class="text-color-quaternary text-capitalize font-weight-bold text-5 m-0 mb-3">Recent Posts</h3>
-                                <div class="pb-2 mb-1">
-                                    <a href="#" class="text-color-default text-uppercase text-1 mb-0 d-block text-decoration-none">10 Jan 2022 <span class="opacity-3 d-inline-block px-2">|</span> 3 Comments <span class="opacity-3 d-inline-block px-2">|</span> John Doe</a>
-                                    <a href="#" class="text-color-dark text-hover-primary font-weight-bold text-3 d-block pb-3 line-height-4">Lorem ipsum dolor sit amet</a>
-                                    <a href="#" class="text-color-default text-uppercase text-1 mb-0 d-block text-decoration-none">10 Jan 2022 <span class="opacity-3 d-inline-block px-2">|</span> 3 Comments <span class="opacity-3 d-inline-block px-2">|</span> John Doe</a>
-                                    <a href="#" class="text-color-dark text-hover-primary font-weight-bold text-3 d-block pb-3 line-height-4">Consectetur adipiscing elit</a>
-                                    <a href="#" class="text-color-default text-uppercase text-1 mb-0 d-block text-decoration-none">10 Jan 2022 <span class="opacity-3 d-inline-block px-2">|</span> 3 Comments <span class="opacity-3 d-inline-block px-2">|</span> John Doe</a>
-                                    <a href="#" class="text-color-dark text-hover-primary font-weight-bold text-3 d-block pb-3 line-height-4">Vivamus sollicitudin nibh luctus</a>
-                                </div>
-                            </div>
-                        </div>
-                    </aside>
-                </div>
             </div>
         </div>
     </section>
 
-    <section class="section section-height-3 bg-color-dark border-0 m-0">
-        <div class="container container-xl-custom">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-8 col-xl-6 mb-5 mb-lg-0">
-                    <span class="d-block custom-text-color-light-2 custom-heading-bar custom-heading-bar-with-padding font-weight-light text-5 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">Let’s Get in Touch</span>
-                    <h2 class="text-color-light font-weight-extra-bold text-10 negative-ls-1 pe-3 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">LET'S TALK ABOUT YOUR BUSINESS IT SERVICES NEEDS</h2>
-                    <p class="custom-font-secondary text-4 custom-text-color-light-3 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <div class="col-lg-4 col-xl-3">
-                    <div class="overflow-hidden">
-                        <a href="demo-it-services-contact.html" class="btn btn-secondary btn-outline text-color-light font-weight-semibold border-width-4 custom-link-effect-1 text-1 text-xl-3 d-inline-flex align-items-center px-4 py-3 appear-animation" data-appear-animation="maskRight" data-appear-animation-delay="900">GET STARTED NOW <i class="custom-arrow-icon ms-2"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('components.cta')
 
 @endsection

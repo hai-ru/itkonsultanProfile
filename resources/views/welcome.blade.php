@@ -21,7 +21,7 @@
 				<div class="col-md-7 col-lg-6">
 					<h1 class="text-color-light font-weight-extra-bold text-6 text-lg-10 text-xl-14 line-height-1-1 negative-ls-1 pb-2 mb-2 mb-xl-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">ARE YOU LOOKING FOR SUPERIOR TECH IT SUPPORT?</h1>
 					<p class="custom-font-secondary custom-text-color-light-1 line-height-5 text-xl-5 pe-5 pb-3 mb-2 mb-xl-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">We provide <strong class="text-color-light">affordable</strong>, highly responsive <strong class="text-color-light">IT Support</strong> and Services for small and medium businesses.</p>
-					<a href="#services" class="btn btn-secondary btn-outline text-color-light font-weight-semibold border-width-4 custom-link-effect-1 text-1 text-xl-3 d-inline-flex align-items-center px-4 py-3 appear-animation" data-hash data-hash-offset="0" data-hash-offset-lg="90" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">GET STARTED NOW <i class="custom-arrow-icon ms-2"></i></a>
+					<a href="tel:+6281254197359" class="btn btn-secondary btn-outline text-color-light font-weight-semibold border-width-4 custom-link-effect-1 text-1 text-xl-3 d-inline-flex align-items-center px-4 py-3 appear-animation" data-hash data-hash-offset="0" data-hash-offset-lg="90" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">GET STARTED NOW <i class="custom-arrow-icon ms-2"></i></a>
 				</div>
 			</div>
 		</div>
@@ -36,7 +36,12 @@
 							<img src="/images/it-consulting.jpg" class="card-img-top rounded-0 img-fluid" alt="IT Consulting">
 							<div class="card-body pt-4">
 								<h4 class="custom-heading-bar font-weight-bold text-color-dark text-5">IT CONSULTING</h4>
-								<p class="custom-font-secondary text-4 mb-3">Lorem ipsum dolor sit <strong class="text-color-dark">amet</strong>, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor.</p>
+								<p class="custom-font-secondary text-4 mb-3">
+									We have core products that help your business
+									to grow in digital way, please talk to our consultans
+									to get to know more about the prodcuts
+									<!-- Lorem ipsum dolor sit <strong class="text-color-dark">amet</strong>, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor. -->
+								</p>
 							</div>
 						</div>
 						<div class="card-transform">
@@ -44,7 +49,7 @@
 								<img src="/images/it-support.jpg" class="card-img-top rounded-0 img-fluid" alt="IT Support">
 								<div class="card-body pt-4">
 									<h4 class="custom-heading-bar custom-heading-bar-right font-weight-bold text-color-dark text-end text-5">IT SUPPORT</h4>
-									<p class="text-end custom-font-secondary text-4 ps-4 ms-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor.</p>
+									<p class="text-end custom-font-secondary text-4 ps-4 ms-3 mb-3">We can help and get a free consultation from the expert.</p>
 								</div>
 							</div>
 						</div>
@@ -54,8 +59,10 @@
 				<div class="col-xl-5">
 					<span class="d-block custom-text-color-grey-1 font-weight-bold mb-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">WHO WE ARE</span>
 					<h2 class="text-color-dark font-weight-bold text-8 line-height-2 negative-ls-1 pb-3 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">We focus on bringing value and solve business challenges through the delivery of modern IT services and solutions</h2>
-					<p class="custom-text-size-1 pb-3 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. Vestibulum auctor felis eget orci semper vestibulum. Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc. In nibh ipsum, blandit id faucibus ac, finibus vitae dui.</p>
-					<a href="demo-it-services-about-us.html" class="d-flex align-items-center custom-link-effect-1 text-color-primary font-weight-bold text-decoration-none text-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1300">Find Out More <i class="custom-arrow-icon ms-2"></i></a>
+					<p class="custom-text-size-1 pb-3 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100">
+					As an information technology planning and development consulting service company. We offer consulting services, and value added services to our client base. Our focus is on pursuing and providing service assistance to your business.
+					</p>
+					<a href="{{ route('page','about') }}" class="d-flex align-items-center custom-link-effect-1 text-color-primary font-weight-bold text-decoration-none text-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1300">Find Out More <i class="custom-arrow-icon ms-2"></i></a>
 				</div>
 			</div>
 		</div>
@@ -83,28 +90,24 @@
 			</div>
 			<div class="row pt-4">
 				<div class="col-md-6 col-lg-3 text-center mb-5 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="650">
-					<img src="/icons/backup-data-server.svg" class="img-fluid" width="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary pb-2 mb-4'}" />
-					<h4 class="text-color-primary font-weight-bold text-6 mb-3">Cloud Services</h4>
-					<p class="custom-text-size-1 px-lg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci.</p>
-					<a href="demo-it-services-services-detail.html" class="text-color-dark font-weight-bold custom-text-size-1">READ MORE +</a>
+					<img src="/img/Icon_software_&_aplikasi.png" class="img-fluid" width="100" alt="" />
+					<h4 class="text-color-primary font-weight-bold text-6 mb-3">Software dan Aplikasi</h4>
+					<p class="custom-text-size-1 px-lg-4">Mewujudkan ide bisnis anda untuk memiliki setiap aplikasi Android, iOS, dan Sistem Informasi lainnya. Tim profesional kami selalu siap membantu rencana pengembangan terbaik bagi solusi bisnis anda.</p>
 				</div>
 				<div class="col-md-6 col-lg-3 text-center mt-lg-5 mb-5 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="850">
-					<img src="/icons/remove-monitor-access.svg" class="img-fluid" width="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-dark pb-2 mb-4'}" />
-					<h4 class="text-color-dark font-weight-bold text-6 mb-3">Tech Support</h4>
-					<p class="custom-text-size-1 px-lg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci.</p>
-					<a href="demo-it-services-services-detail.html" class="text-color-primary font-weight-bold custom-text-size-1">READ MORE +</a>
+					<img src="/img/Icon_Jaringan_dan_Insfrastuktur_IT.png" class="img-fluid" width="100" alt="" />
+					<h4 class="text-color-dark font-weight-bold text-6 mb-3">Instalasi Jaringan & Infrastruktur IT</h4>
+					<p class="custom-text-size-1 px-lg-4">Pengadaan barang dan jasa instalasi jaringan internet, CCTV serta membangun Infrastruktur IT terbaik dan berkualitas untuk bisnis anda.</p>
 				</div>
 				<div class="col-md-6 col-lg-3 text-center mb-5 mb-md-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1050">
-					<img src="/icons/password-lock-secure.svg" class="img-fluid" width="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary pb-2 mb-4'}" />
-					<h4 class="text-color-primary font-weight-bold text-6 mb-3">Data Security</h4>
-					<p class="custom-text-size-1 px-lg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci.</p>
-					<a href="demo-it-services-services-detail.html" class="text-color-dark font-weight-bold custom-text-size-1">READ MORE +</a>
+					<img src="/icons/password-lock-secure.svg" class="img-fluid" width="100" alt="" />
+					<h4 class="text-color-primary font-weight-bold text-6 mb-3">Proteksi Keamanan Data & Jaringan</h4>
+					<p class="custom-text-size-1 px-lg-4">Membantu menyediakan sistem keamanan perusahaan anda dari peretasan dan pencurian data penting.</p>
 				</div>
 				<div class="col-md-6 col-lg-3 text-center mt-lg-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1250">
-					<img src="/icons/floppy-disk-memory.svg" class="img-fluid" width="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-dark pb-2 mb-4'}" />
-					<h4 class="text-color-dark font-weight-bold text-6 mb-3">Software Dev</h4>
-					<p class="custom-text-size-1 px-lg-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci.</p>
-					<a href="demo-it-services-services-detail.html" class="text-color-primary font-weight-bold custom-text-size-1">READ MORE +</a>
+					<img src="/img/Icon_perencana_desain_&_Analisis_data.png" class="img-fluid" width="100" alt="" />
+					<h4 class="text-color-dark font-weight-bold text-6 mb-3">Perencana Desain & Analisis Data</h4>
+					<p class="custom-text-size-1 px-lg-4">Perencanaan bisnis dan proyek anda, mulai dari flowchat, UI/UX, database, proses bisnis, sistem, dan pendokumentasian.</p>
 				</div>
 			</div>
 		</div>
@@ -115,7 +118,7 @@
 			<div class="row">
 				<div class="col-12 text-center">
 					<h2 class="text-color-dark font-weight-bold text-8 line-height-2 mb-2">We Provide Outsourced IT Services</h2>
-					<p class="custom-font-secondary text-4 pb-2 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra erat orci, ac auctor</p>
+					<p class="custom-font-secondary text-4 pb-2 mb-4">Dapatkan konsultasi IT GRATIS dengan tenaga ahli profesional kami yang siap membantu anda kapanpun.</p>
 				</div>
 			</div>
 		</div>
@@ -130,7 +133,7 @@
 					<span class="d-block font-weight-bold custom-text-color-grey-1 text-center line-height-1 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="300">RESOURCES</span>
 				</div>
 				<div class="overflow-hidden mb-5">
-					<h2 class="text-color-dark font-weight-bold text-center text-8 line-height-2 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="500">The Porto Blog</h2>
+					<h2 class="text-color-dark font-weight-bold text-center text-8 line-height-2 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="500">The Blog</h2>
 				</div>
 			</div>
 		</div>
@@ -146,8 +149,7 @@
 					<div class="card-body">
 						<ul class="list list-unstyled custom-font-secondary pb-1 mb-2">
 							<li class="list-inline-item line-height-1 me-1 mb-0">FEBRUARY 4, 2022</li>
-							<li class="d-inline-block list-inline-item vertical-divider border-color-dark px-2 line-height-1 me-1">3 COMMENTS</li>
-							<li class="list-inline-item line-height-1 mb-0">JOHN DOE</li>
+							<li class="d-inline-block list-inline-item vertical-divider border-color-dark px-2 line-height-1 me-1">JOHN DOE</li>
 						</ul>
 						<p class="custom-text-size-1 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. dolor sit amet...</p>
 						<a href="demo-it-services-blog-post.html" class="text-color-primary font-weight-bold text-decoration-underline custom-text-size-1">Read More...</a>
@@ -165,8 +167,7 @@
 					<div class="card-body">
 						<ul class="list list-unstyled custom-font-secondary pb-1 mb-2">
 							<li class="list-inline-item line-height-1 me-1 mb-0">FEBRUARY 4, 2022</li>
-							<li class="d-inline-block list-inline-item vertical-divider border-color-dark px-2 line-height-1 me-1">3 COMMENTS</li>
-							<li class="list-inline-item line-height-1 mb-0">JOHN DOE</li>
+							<li class="d-inline-block list-inline-item vertical-divider border-color-dark px-2 line-height-1 me-1">JOHN DOE</li>
 						</ul>
 						<p class="custom-text-size-1 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. dolor sit amet...</p>
 						<a href="demo-it-services-blog-post.html" class="text-color-primary font-weight-bold text-decoration-underline custom-text-size-1">Read More...</a>
@@ -184,8 +185,7 @@
 					<div class="card-body">
 						<ul class="list list-unstyled custom-font-secondary pb-1 mb-2">
 							<li class="list-inline-item line-height-1 me-1 mb-0">FEBRUARY 4, 2022</li>
-							<li class="d-inline-block list-inline-item vertical-divider border-color-dark px-2 line-height-1 me-1">3 COMMENTS</li>
-							<li class="list-inline-item line-height-1 mb-0">JOHN DOE</li>
+							<li class="d-inline-block list-inline-item vertical-divider border-color-dark px-2 line-height-1 me-1">JOHN DOE</li>
 						</ul>
 						<p class="custom-text-size-1 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. dolor sit amet...</p>
 						<a href="demo-it-services-blog-post.html" class="text-color-primary font-weight-bold text-decoration-underline custom-text-size-1">Read More...</a>

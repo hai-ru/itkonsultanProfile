@@ -6,12 +6,12 @@
         <div class="container container-xl-custom py-5">
             <div class="row">
                 <div class="col-md-8 order-2 order-md-1 align-self-center p-static">
-                    <h1 class="font-weight-extra-bold text-14 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">IT SERVICES</h1>
+                    <h1 class="font-weight-extra-bold text-14 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">Produk</h1>
                 </div>
                 <div class="col-md-4 order-1 order-md-2 align-self-center">
                     <ul class="breadcrumb d-block text-md-end breadcrumb-light appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">
-                        <li><a href="#">Home</a></li>
-                        <li class="active">IT Services</li>
+                        <li><a href="/">Home</a></li>
+                        <li class="active">Produk</li>
                     </ul>
                 </div>
             </div>
@@ -26,71 +26,42 @@
                         <span class="d-block font-weight-bold custom-text-color-grey-1 line-height-1 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="600">OUR EXPERTISE</span>
                     </div>
                     <div class="overflow-hidden mb-4">
-                        <h2 class="text-color-dark font-weight-bold text-8 line-height-2 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="800">World-Class Solutions for your Business</h2>
+                        <h2 class="text-color-dark font-weight-bold text-8 line-height-2 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="800">Produk Teknologi Informasi yang Kami Tawarkan</h2>
                     </div>
-                    <p class="custom-text-size-1 mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. Vestibulum auctor felis eget orci semper vestibulum. Pellentesque ultricies nibh gravida, accumsan libero luctus, molestie nunc. In nibh ipsum, blandit id faucibus ac, finibus vitae dui.</p>
+                    <p class="custom-text-size-1 mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">Saat ini selain menyediakan jasa pelayanan profesional yang dirancang khusus sesuai dengan keperluan bisnis anda, IT KONSULTAN juga menawarkan produk purna jual berkualitas yang siap digunakan dengan harga bersaing, bergaransi dengan pelayanan terbaik dari tim IT Service kami.</p>
                 </div>
             </div>
             <div class="row row-gutter-sm justify-content-center pb-5 mb-5">
-                <div class="col-md-6 col-xl-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">
+                <div class="col-md-6 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">
                     <div class="card border-0 custom-box-shadow-1">
                         <div class="card-body text-center p-5 my-3">
-                            <img src="/img/demos/it-services/icons/backup-data-server.svg" class="img-fluid" width="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary pb-1 mb-4'}" />
-                            <h4 class="text-color-primary font-weight-bold text-6 mb-3">Cloud Services</h4>
-                            <p class="custom-text-size-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur.</p>
-                            <a href="demo-it-services-services-detail.html" class="text-color-dark font-weight-bold custom-text-size-1">READ MORE +</a>
+                            <img src="/img/logo_norapos.png" class="img-fluid" alt="Norapos - Aplikasi Point Of Sale (POS)" />
+                            <h4 class="text-color-primary font-weight-bold text-6 mb-3">Norapos - Aplikasi Point Of Sale (POS)</h4>
+                            <p class="custom-text-size-1">Solusi bisnis anda. Kelola semua transaksi dalam satu aplikasi jadi lebih mudah. Terintegrasi online dan offline. Pantau bisnis anda dari mana dan kapan saja.</p>
+                            <p class="text-color-dark font-weight-bold mb-3">Cobalah Sekarang, COCOK untuk SEMUA BISNIS ANDA!</p>
+                            <a href="https://norapos.com" class="text-color-dark font-weight-bold custom-text-size-1">Lihat Selengkapnya +</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">
+                <div class="col-md-6 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">
                     <div class="card border-0 custom-box-shadow-1">
                         <div class="card-body text-center p-5 my-3">
-                            <img src="/img/demos/it-services/icons/remove-monitor-access.svg" class="img-fluid" width="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary pb-1 mb-4'}" />
-                            <h4 class="text-color-primary font-weight-bold text-6 mb-3">Tech Support</h4>
-                            <p class="custom-text-size-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur.</p>
-                            <a href="demo-it-services-services-detail.html" class="text-color-dark font-weight-bold custom-text-size-1">READ MORE +</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1600">
-                    <div class="card border-0 custom-box-shadow-1">
-                        <div class="card-body text-center p-5 my-3">
-                            <img src="/img/demos/it-services/icons/password-lock-secure.svg" class="img-fluid" width="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary pb-1 mb-4'}" />
-                            <h4 class="text-color-primary font-weight-bold text-6 mb-3">Data Security</h4>
-                            <p class="custom-text-size-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur.</p>
-                            <a href="demo-it-services-services-detail.html" class="text-color-dark font-weight-bold custom-text-size-1">READ MORE +</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4 mb-4 mb-xl-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
-                    <div class="card border-0 custom-box-shadow-1">
-                        <div class="card-body text-center p-5 my-3">
-                            <img src="/img/demos/it-services/icons/floppy-disk-memory.svg" class="img-fluid" width="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary pb-1 mb-4'}" />
-                            <h4 class="text-color-primary font-weight-bold text-6 mb-3">Software Dev</h4>
-                            <p class="custom-text-size-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur.</p>
-                            <a href="demo-it-services-services-detail.html" class="text-color-dark font-weight-bold custom-text-size-1">READ MORE +</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">
-                    <div class="card border-0 custom-box-shadow-1">
-                        <div class="card-body text-center p-5 my-3">
-                            <img src="/img/demos/it-services/icons/network-database.svg" class="img-fluid" width="100" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary pb-1 mb-4'}" />
-                            <h4 class="text-color-primary font-weight-bold text-6 mb-3">Server Consulting</h4>
-                            <p class="custom-text-size-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur.</p>
-                            <a href="demo-it-services-services-detail.html" class="text-color-dark font-weight-bold custom-text-size-1">READ MORE +</a>
+                            <img src="/img/paket_mesin_antrian_-_ITKONSULTAN.jpg" class="img-fluid" alt="Mesin Antrian (MQS)" />
+                            <h4 class="text-color-primary font-weight-bold text-6 mb-3 mt-3">Mesin Antrian (MQS)</h4>
+                            <p class="custom-text-size-1">Cocok untuk semua masalah antrian. <br/>Support dengan smartphone/android/tablet anda.<br/>Hubungi IT Service kami untuk mendapatkan demo GRATIS!</p>
+                            <a href="demo-it-services-services-detail.html" class="text-color-dark font-weight-bold custom-text-size-1">Lihat Selengkapnya +</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col">
                     <div class="overflow-hidden mb-4">
                         <h2 class="text-color-dark font-weight-bold text-center text-8 line-height-2 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="500">Our Process</h2>
                     </div>
                 </div>
-            </div>
-            <div class="row pt-lg-4">
+            </div> -->
+            <!-- <div class="row pt-lg-4">
                 <div class="col position-relative">
                     <div class="process custom-process-style-1 d-flex w-100 flex-column flex-lg-row pb-2 mb-4">
                         <div class="process-step col-12 col-lg-4 mb-5 mb-lg-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
@@ -122,7 +93,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
