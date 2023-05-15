@@ -19,6 +19,11 @@ Route::get('/', function () {
 Route::get('blog', function () {
     return view('pages.blog');
 })->name('blog');
+Route::get('blog/{slug}', function ($slug) {
+    $data["slug"] = $slug;
+    return view('pages.blog-detail',$data);
+})->name('blog.detail');
+
 Route::get('careers', function () {
     return view('pages.careers');
 })->name('careers');

@@ -137,61 +137,52 @@
 				</div>
 			</div>
 		</div>
-		<div class="row justify-content-center pb-3 pt-4 mb-5">
-			<div class="col-md-7 col-lg-4 pe-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="450">
-				<article class="card custom-post-style-1 border-0">
-					<header class="overlay overlay-show">
-						<img class="img-fluid" src="/images/demo/blog/blog-post-thumb-1.jpg" alt="Blog Post Thumbnail 1">
-						<h4 class="font-weight-bold text-6 position-absolute bottom-0 left-0 z-index-2 ms-4 mb-4 pb-2 ps-2 pe-5 me-5">
-							<a href="demo-it-services-blog-post.html" class="text-color-light text-decoration-none">What To Do If People Hate Your Brand</a>
-						</h4>
-					</header>
-					<div class="card-body">
-						<ul class="list list-unstyled custom-font-secondary pb-1 mb-2">
-							<li class="list-inline-item line-height-1 me-1 mb-0">FEBRUARY 4, 2022</li>
-							<li class="d-inline-block list-inline-item vertical-divider border-color-dark px-2 line-height-1 me-1">JOHN DOE</li>
-						</ul>
-						<p class="custom-text-size-1 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. dolor sit amet...</p>
-						<a href="demo-it-services-blog-post.html" class="text-color-primary font-weight-bold text-decoration-underline custom-text-size-1">Read More...</a>
-					</div>
-				</article>
-			</div>
-			<div class="col-md-7 col-lg-4 px-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">
-				<article class="card custom-post-style-1 border-0">
-					<header class="overlay overlay-show">
-						<img class="img-fluid" src="/images/demo/blog/blog-post-thumb-2.jpg" alt="Blog Post Thumbnail 2">
-						<h4 class="font-weight-bold text-6 position-absolute bottom-0 left-0 z-index-2 ms-4 mb-4 pb-2 ps-2 pe-5 me-5">
-							<a href="demo-it-services-blog-post.html" class="text-color-light text-decoration-none">How To Create A Good Site for Your Clients</a>
-						</h4>
-					</header>
-					<div class="card-body">
-						<ul class="list list-unstyled custom-font-secondary pb-1 mb-2">
-							<li class="list-inline-item line-height-1 me-1 mb-0">FEBRUARY 4, 2022</li>
-							<li class="d-inline-block list-inline-item vertical-divider border-color-dark px-2 line-height-1 me-1">JOHN DOE</li>
-						</ul>
-						<p class="custom-text-size-1 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. dolor sit amet...</p>
-						<a href="demo-it-services-blog-post.html" class="text-color-primary font-weight-bold text-decoration-underline custom-text-size-1">Read More...</a>
-					</div>
-				</article>
-			</div>
-			<div class="col-md-7 col-lg-4 ps-lg-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="650">
-				<article class="card custom-post-style-1 border-0">
-					<header class="overlay overlay-show">
-						<img class="img-fluid" src="/images/demo/blog/blog-post-thumb-3.jpg" alt="Blog Post Thumbnail 3">
-						<h4 class="font-weight-bold text-6 position-absolute bottom-0 left-0 z-index-2 ms-4 mb-4 pb-2 ps-2 pe-5 me-5">
-							<a href="demo-it-services-blog-post.html" class="text-color-light text-decoration-none">How To Design Powerful Mobile Apps</a>
-						</h4>
-					</header>
-					<div class="card-body">
-						<ul class="list list-unstyled custom-font-secondary pb-1 mb-2">
-							<li class="list-inline-item line-height-1 me-1 mb-0">FEBRUARY 4, 2022</li>
-							<li class="d-inline-block list-inline-item vertical-divider border-color-dark px-2 line-height-1 me-1">JOHN DOE</li>
-						</ul>
-						<p class="custom-text-size-1 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet libero id nisi euismod, sed porta est consectetur. dolor sit amet...</p>
-						<a href="demo-it-services-blog-post.html" class="text-color-primary font-weight-bold text-decoration-underline custom-text-size-1">Read More...</a>
-					</div>
-				</article>
-			</div>
+		<div class="row justify-content-center pb-3 pt-4 mb-5" id="blog_list"></div>
+		<div id="loading" class="text-center">
+			<i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+			<span class="sr-only">Loading...</span>
+			<p>Loading...</p>
 		</div>
 	</div>
+@endsection
+
+@section('js')
+<script>
+	function fetchBlog() {
+		$.ajax({
+			url:"{{ env('APP_ENDPOINT') }}/api/data?type=blog&take=3",
+			beforeSend:function(){
+                    $("#loading").show();
+            },
+			success:function(result){
+				const blog_list = $("#blog_list");
+				result.map((item,index)=>{
+					const time = moment(item.created_at).format("Do MMMM YYYY, h:mm");
+					const template = `<div class="col-md-7 col-lg-4 pe-lg-0">
+								<article class="card custom-post-style-1 border-0">
+									<header class="overlay overlay-show">
+										<img class="img-fluid" src="${item.default_image}" alt="${item.title}">
+										<h4 class="font-weight-bold text-6 position-absolute bottom-0 left-0 z-index-2 ms-4 mb-4 pb-2 ps-2 pe-5 me-5">
+											<a href="/blog/${item.slug}" class="text-color-light text-decoration-none">${item.title}</a>
+										</h4>
+									</header>
+									<div class="card-body">
+										<ul class="list list-unstyled custom-font-secondary pb-1 mb-2">
+											<li class="list-inline-item line-height-1 me-1 mb-0">${time}</li>
+											<li class="d-inline-block list-inline-item vertical-divider border-color-dark px-2 line-height-1 me-1">${item.user?.username ?? "-"}</li>
+										</ul>
+										<p class="custom-text-size-1 mb-2">${item.description}</p>
+										<a href="/blog/${item.slug}" class="text-color-primary font-weight-bold text-decoration-underline custom-text-size-1">Lihat Selengkapnya...</a>
+									</div>
+								</article>
+							</div>`;
+					blog_list.append(template);
+                    $("#loading").hide();
+				})
+			},
+			error:function(e){console.log(e)}
+		})
+	}
+	fetchBlog()
+</script>
 @endsection

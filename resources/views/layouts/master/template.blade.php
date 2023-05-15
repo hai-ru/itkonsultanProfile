@@ -49,6 +49,8 @@
 		<!-- Head Libs -->
 		<script src="/vendor/modernizr/modernizr.min.js"></script>
 
+		@yield('css')
+
 	</head>
 	<body>
 
@@ -92,6 +94,11 @@
 
 		<!-- Theme Initialization Files -->
 		<script src="/js/theme.init.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js"></script>
+		<script>moment.locale('id')</script>
+
+		@yield('js')
 
 	</body>
 </html>
